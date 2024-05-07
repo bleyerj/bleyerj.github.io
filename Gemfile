@@ -23,6 +23,8 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
+  gem "jekyll-scholar"
   gem 'hawkins'
   gem "webrick", "~> 1.8"
+  gem 'jekyll-email-protect'
 end

@@ -104,6 +104,9 @@ body:hover .visually-hidden button {
   white-space: nowrap;
 }
 
+body {
+    text-align: justify;
+}
 
 /*
    Alignment
@@ -170,6 +173,33 @@ body:hover .visually-hidden button {
   @include breakpoint($large){
     margin-right: -1 * span(2.5 of 12) !important;
   }
+}
+
+
+/* Align image to text */
+.image-text-container {
+    display: flex; /* Use flexbox for the container */
+    align-items: center; /* Center items vertically */
+    max-width: 800px; /* Adjust this value according to your layout */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+
+.image-column {
+    flex-shrink: 0; /* Prevent the image column from shrinking */
+    margin-left: 20px; /* Add margin between the image column and the text column */
+    margin-right: 20px; /* Add margin between the image column and the text column */
+}
+
+.text-column {
+    flex: 1; /* Make the text column flexible to occupy remaining space */
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /*

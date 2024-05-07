@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jeremy Bleyer"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jeremy Bleyer"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://bleyerj.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "bleyerj/bleyerj.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,32 +22,32 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Jeremy Bleyer"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Researcher at Ecole des Ponts ParisTech,\ Associate Professor at Ecole Polytechnique"
+  location         : "Champs-sur-Marne, France"
+  employer         : "Ecole des Ponts ParisTech"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "jeremy.bleyer@enpc.fr" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=p9iRhzgAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  orcid            : "http://orcid.org/0000-0001-8212-9921"
+  pubmed           : # URL
+  researchgate     : "https://www.researchgate.net/profile/Jeremy-Bleyer"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "bleyerj"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/jeremy-bleyer/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -170,6 +170,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - bibliography
 keep_files:
   - .git
   - .svn
@@ -205,7 +206,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  research:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -251,10 +252,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
@@ -290,6 +291,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -334,3 +336,27 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# scholar:
+#   style: apa
+#   sort_by: year
+#   order: descending
+#   group_by: none
+#   group_order: descending
+
+#   source: ./bibliography
+#   bibliography: references.bib
+#   bibliography_template: ""
+
+#   replace_strings: true
+#   join_strings:    true
+
+#   use_raw_bibtex_entry: true
+
+#   details_dir:    bibliography
+#   details_layout: nodetails.html
+#   details_link:   Details
+
+#   bibliography_template: bib
+#   source: ./bibliography

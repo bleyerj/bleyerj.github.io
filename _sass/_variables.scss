@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 16;
+$doc-font-size              : 18;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -60,19 +60,24 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
+$navier-blue                : #003B71;
+$dark-blue                  : mix(#000, $navier-blue, 40%);
+$darker-blue                : mix(#000, $navier-blue, 60%);
+$light-blue                 : mix(#fff, $navier-blue, 50%);
+$lighter-blue               : mix(#fff, $navier-blue, 90%);
 
 $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$code-background-color-dark : $light-blue;
+$text-color                 : $dark-blue;
+$border-color               : $lighter-blue;
 
-$primary-color              : #7a8288;
+$primary-color              : $navier-blue;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$info-color                 : #4795b9;
 
 /* brands */
 $behance-color              : #1769FF;

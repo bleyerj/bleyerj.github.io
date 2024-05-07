@@ -1,49 +1,87 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Jeremy Bleyer"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Welcome to my website!
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## About
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I am a researcher in solid and structural mechanics from [Ecole des Ponts ParisTech](https://ecoledesponts.fr/). I work in [Laboratoire Navier](https://navier-lab.fr/), in the *Architected Materials and Structures* team.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<p align="center">
+  <img src="images/logos_enpc_navier.png" width=300 />
+</p>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<div class="image-text-container">
+    <div class="text-column">
+    {{ "
+I am also an Associate Professor at [Ecole Polytechnique](https://www.polytechnique.edu/) in the Mechanical Engineering department.."  | markdownify }}
+    </div>
+    <div class="image-column">
+    <img src="images/POLYTECHNIQUE-IP_PARIS.png" alt="Image Description" class="centered-image" width=100>
+    </div>
+</div>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Research
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+My research work aims to develop advanced mechanical models and innovative numerical simulation tools for the study of material and structural failure. To achieve this, I draw from a broad spectrum of disciplines, including applied mathematics
+(convex analysis and optimization in particular), theoretical and computational mechanics. While a significant portion of my work is at a relatively fundamental methodological level, I also pay special attention to their application in the field of engineering, particularly in civil engineering. In this context, my work aims to address two important societal challenges:
+sustainable construction and risk management.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+You can find further details in [Research](/research).
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Open science projects
+
+### FEniCS
+
+I am strongly involved in the [FEniCS](http://fenicsproject.org) users community. I provide regular help on the
+users forum and I maintain an online book called [Numerical tours of Computational
+Mechanics using FEniCS](http://bleyerj.github.io/comet-fenicsx), containing educational demos oriented towards solid and structural mechanics applications with FEniCS.
+
+### MFront
+
+I am also contributing to the [MFront project](http://tfel.sourceforge.net), a code generator dedicated to material knowledge, developed at CEA. I have been involved in the [MFrontGenericInterfaceSupport](https://github.com/thelfer/MFrontGenericInterfaceSupport) project, by developing in particular an interface between MFront and FEniCS.
+
+These developments are now included in the [`dolfinx_materials`](http://github.com/bleyerj/dolfinx_materials) project.
+
+### MEALOR II
+
+I have been a core member of the [MEALOR II Summer school](https://mealor2.sciencesconf.org/). At this occasion, we wrote a collective open-access book, [MEALOR II : Damage Mechanics and Local Approach to Fracture](https://doi.org/10.5281/zenodo.10125169).
+
+> The book covers the physics and mechanics of brittle and ductile fracture under monotonic loading, presenting theoretical,
+numerical, and experimental aspects as well as the latest applications and research developments of the local approach to fracture
+
+## Teaching
+
+### at Ecole des Ponts ParisTech
+
+I am in charge of the following courses:
+* *Finite-element method for civil engineering*, 3rd year civil engineering cycle
+* *Damage Mechanics*, Master 2, Sorbonne Université/Ecole des Ponts ParisTech/Institut Polytechnique de Paris, jointly with Kim Pham
+
+
+<div class="image-text-container">
+    <div class="image-column">
+    <img src="images/DGTwins_logo.jpg" alt="Image Description" class="centered-image" width=200>
+    </div>
+    <div class="text-column">
+    {{ "I am also involved in the Academic Board for the Executive Master in [Digital Twins for Infrastructures & Cities](http://digitwin4ciue.eu). In 2023, I was Acting Scientific Director of the program. I am now in charge of the Master's Conference Cycle. For more details, see our [Youtube Channel](https://www.youtube.com/@DigiTwin4CIUE)."  | markdownify }}
+    </div>
+</div>
+
+
+
+### at Ecole Polytechnique
+
+I am an Associate Professor at Ecole Polytechnique in the Mechanical Engineering department. I am currently teaching in the following courses:
+* MEC430: *Structural Mechanics*, coordinated by Basile Audoly
+* MEC431: *Solid Mechanics*, coordinated by Patrick Le Tallec
+
+You can find further details in [Teaching](/teaching).
