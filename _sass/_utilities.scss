@@ -180,7 +180,7 @@ body {
 .image-text-container {
     display: flex; /* Use flexbox for the container */
     align-items: center; /* Center items vertically */
-    max-width: 800px; /* Adjust this value according to your layout */
+    max-width: 100%; /* Adjust this value according to your layout */
     margin: 0 auto; /* Center the container horizontally */
 }
 
