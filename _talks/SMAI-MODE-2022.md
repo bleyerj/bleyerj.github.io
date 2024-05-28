@@ -1,5 +1,5 @@
 ---
-title: "Formulation stochastique des matériaux standards généralisés"
+title: "Optimisation de forme des structures plastiques par programmation conique"
 collection: talks
 type: "Talk"
 venue: "[Journées SMAI-MODE 2022](https://indico.math.cnrs.fr/event/6564/)"
