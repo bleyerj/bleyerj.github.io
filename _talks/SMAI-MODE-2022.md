@@ -3,7 +3,7 @@ title: "Optimisation de forme des structures plastiques par programmation coniqu
 collection: talks
 type: "Talk"
 venue: "[Journées SMAI-MODE 2022](https://indico.math.cnrs.fr/event/6564/)"
-date: 2024-05-14
+date: 2022-06-02
 location: "Université de Limoges, France"
 slides: "../files/SMAI_MODE_2022.pdf"
 excerpt: ""
