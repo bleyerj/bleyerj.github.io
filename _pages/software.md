@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% include toc %}
 
 ## Main projects
 
@@ -22,10 +23,13 @@ These numerical tours will introduce you to a wide variety of topics in computat
 `dolfinx_materials` is a Python add-on package to the `dolfinx` interface to the [FEniCSx project](https://fenicsproject.org/).
 It enables the user to define **complex material constitutive behaviours** which are not expressible using classical [UFL](https://fenics.readthedocs.io/projects/ufl/en/latest/) operators.
 
-### [`fenics_optim`](https://gitlab.enpc.fr/navier-fenics/fenics-optim) 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5833932.svg)](https://doi.org/10.5281/zenodo.5833932)
+### [`dolfinx_optim`](https://github.com/bleyerj/dolfinx_optim)
 
-`fenics_optim` is a Python library that aims at providing a simple user interface in FEniCS for solving convex optimization problems. In particular, it relies on the [Mosek](https://www.mosek.com) mathematical programming library. In particular, Mosek is a state-of-the art solver for linear programming (LP), convex quadratic programming (QP), second-order conic programming (SOCP) and semi-definite programming (SDP).
+<!---
+ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5833932.svg)](https://doi.org/10.5281/zenodo.5833932)
+--->
+
+`dolfinx_optim` is a Python library that aims at providing a simple user interface in FEniCSx for solving **convex optimization problems**. In particular, it relies on the [Mosek](https://www.mosek.com) mathematical programming library. In particular, Mosek is a state-of-the art solver for linear programming (LP), convex quadratic programming (QP), second-order conic programming (SOCP) and semi-definite programming (SDP).
 
 ## Supplementary materials
 
