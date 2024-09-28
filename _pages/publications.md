@@ -12,5 +12,5 @@ author_profile: true
 ## Publications (from HAL)
 
 <IFRAME width="800" height="1000"
-src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?CB_article=oui&CB_auteur=oui&CB_titre=oui&CB_typdoc=oui&Fen=Aff&auteur_exp=Bleyer&css=../css/styles_publicationsHAL_frame.css&langue=Anglais&ordre_aff=TA&tri_exp=typdoc&tri_exp2=annee_publi&tri_exp3=date_publi"
+src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=jeremy-bleyer&CB_auteur=oui&CB_titre=oui&CB_article=oui&CB_DOI=oui&CB_typdoc=oui&langue=Anglais&tri_exp=typdoc&tri_exp2=annee_publi&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/styles_publicationsHAL_frame.css"
 FRAMEBORDER="0" scrolling="auto" ></IFRAME>
