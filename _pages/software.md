@@ -20,6 +20,9 @@ These numerical tours will introduce you to a wide variety of topics in computat
 
 ### [`dolfinx_materials`](https://github.com/bleyerj/dolfinx_materials)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13882184.svg)](https://doi.org/10.5281/zenodo.13882184)
+
+
 `dolfinx_materials` is a Python add-on package to the `dolfinx` interface to the [FEniCSx project](https://fenicsproject.org/).
 It enables the user to define **complex material constitutive behaviours** which are not expressible using classical [UFL](https://fenics.readthedocs.io/projects/ufl/en/latest/) operators.
 
