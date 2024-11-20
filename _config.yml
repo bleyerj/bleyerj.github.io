@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Jeremy Bleyer"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher at Ecole des Ponts ParisTech,\ Associate Professor at Ecole Polytechnique"
+  bio              : "Researcher at Ecole nationale des ponts et chaussées,\ Associate Professor at Ecole Polytechnique"
   location         : "Champs-sur-Marne, France"
-  employer         : "Ecole des Ponts ParisTech"
+  employer         : "Ecole nationale des ponts et chaussées"
   uri              : # URL
   email            : "jeremy.bleyer@enpc.fr" 
 
