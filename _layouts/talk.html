@@ -37,7 +37,7 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         {% if page.venue %}<p>{{ page.venue  | markdownify  | remove: "<p>" | remove: "</p>"}},  {{page.location}} {% endif %}
-        {% if page.paper %}<p><i class="fa-solid fa-book"></i><a href="{{ page.paper }}"><b> Short paper</b></a></p> {% endif %}
+        {% if page.paper %}<p><i class="fa-solid fa-book"></i><a href="{{ page.paper }}"><b> Paper</b></a></p> {% endif %}
         {% if page.slides %}<p><i class="fa fa-person-chalkboard"></i><a href="{{ page.slides }}"><b> Slides</b></a></p> {% endif %}
 
         </header>
