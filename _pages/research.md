@@ -8,9 +8,10 @@ author_profile: true
 {% include base_path %}
 {% include toc %}
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14216009.svg)](https://doi.org/10.5281/zenodo.14216009)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14216008.svg)](https://doi.org/10.5281/zenodo.14216008)  
 For an extensive summary of my research, see my **Habilitation thesis** manuscript on:  
-[Variational principles in nonlinear mechanics using convex optimization and automated numerical tools](https://zenodo.org/records/14216009/files/HDR_manuscript_Jeremy_Bleyer.pdf?download=1) 
+[Variational principles in nonlinear mechanics using convex optimization and automated numerical tools](
+https://zenodo.org/records/14223156/files/HDR_manuscript_Jeremy_Bleyer.pdf?download=1) 
 
 ## Automated nonlinear mechanics with FEniCS
 
