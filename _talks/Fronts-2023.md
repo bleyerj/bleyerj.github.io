@@ -1,7 +1,7 @@
 ---
 title: "Viscoplastic fluid flows: applications, simulation strategies and challenges"
 collection: talks
-type: "Talk"
+type: "Invited talk"
 venue: "[Fronts 2023](https://www.x-mesh.eu/fronts2023/)"
 date: 2023-06-26
 location: "UC Louvain, Belgium"

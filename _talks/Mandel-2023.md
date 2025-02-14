@@ -1,7 +1,7 @@
 ---
 title: "Prix Jean Mandel 2023: Approches variationnelles pour la rupture et l'optimisation des structures"
 collection: talks
-type: "Talk"
+type: "Invited talk"
 venue: "[Prix Jean Mandel 2023](https://www.polytechnique.edu/fondation/actualites/toutes-les-actualites/vladislav-yastrebov-et-jeremy-bleyer-laureats-du-prix-jean-mandel-2023)"
 date: 2023-10-25
 location: "Ecole Polytechnique, France"
