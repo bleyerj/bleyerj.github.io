@@ -11,7 +11,7 @@ Welcome to my website!
 
 ## About
 
-I am a researcher in solid and structural mechanics from [Ecole nationale des ponts et chaussées (ENPC)](https://ecoledesponts.fr/). I work in [Laboratoire Navier](https://navier-lab.fr/), in the *Architected Materials and Structures* team.
+I am a researcher (HDR) in solid and structural mechanics from [Ecole nationale des ponts et chaussées (ENPC)](https://ecoledesponts.fr/). I work in [Laboratoire Navier](https://navier-lab.fr/), in the *Architected Materials and Structures* team.
 
 <p align="center">
   <img src="images/logos_enpc_navier.png" width=300 />
