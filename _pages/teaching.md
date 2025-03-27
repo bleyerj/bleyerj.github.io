@@ -11,6 +11,14 @@ author_profile: true
 
 ## At Ecole des Ponts
 
+### PhD level course *Numerical tools for automating non-linear computational mechanics simulations* (3h)
+
+<p><i class="fa fa-person-chalkboard"></i><a href="Bleyer_advanced_computational_methods_2025.pdf"><b> Slides</b></a></p>
+
+This lecture is part of the lecture series on *Advanced computational methods in mechanics* coordinated by Julien Yvonnet (Université Gustave Eiffel) for the SIE doctoral school.
+
+------------------------------------------------
+
 ### Finite-element method for civil engineering
 
 I am currently teaching a course on the Finite Element Method with a total of 32 hours. In this class, I aim to foster a critical perspective in interpreting numerical results. For this purpose, I have created a pedagogical finite-element Python package, called `wombat`, which uses an Object-Oriented Programming structure and helps students understand the fundamentals of finite-element formulation (small strain linear elasticity for trusses, beams and solid elements, modal and transient dynamic analysis, linear buckling and material non-linearities).
@@ -24,6 +32,7 @@ The class finishes with numerical projects in which students are proposed to imp
 - planar grid elements (bending/torsion coupling)
 - cross-section mechanical characteristics of beams
 
+--------------------------------------------------------------------
 
 ### Damage mechanics
 
@@ -34,6 +43,8 @@ Since 2020, I am co-responsible for a class on *Damage mechanics* at the Master 
 - proposing an outlook towards regularization methods though gradient damage models.
 
 I share this responsibility with Kim Pham (ENSTA), formerly with Djimédo Kondo (SU), who delivers the first 9 hours on the theoretical basis through the thermodynamical framework of irreversible processes. In the next 9 hours, I introduce the students to the numerical aspects of an isotropic local damage model in the FEniCS environment. The students are then exposed to classical issues such as mesh-dependency in order to illustrate the ill-posed character of such models. I then give an introduction to regularizing formulations using damage gradient (phase-field) approaches. Finally, we study the corresponding numerical implementation and how this strategy succeeds, or not, in regularizing the problem of crack propagation in brittle materials.
+
+
 
 ## at Ecole Polytechnique
 
