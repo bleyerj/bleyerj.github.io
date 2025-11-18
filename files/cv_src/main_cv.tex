@@ -1,0 +1,88 @@
+
+%\documentclass[times]{nmeauth}
+\documentclass[english,11pt]{article}
+
+%\usepackage[authoryear]{natbib}
+\usepackage{xcolor}
+
+
+\usepackage{amsthm}
+\usepackage{thmtools}
+\declaretheorem{theorem}
+
+\definecolor{very_light_blue}{RGB}{232,242,250}
+\definecolor{navier_blue}{RGB}{33,89,135}
+\definecolor{lightgray}{gray}{.9}
+
+\usepackage{mystyle}
+\usepackage{newpxtext,newpxmath}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{imakeidx}
+
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm,headsep=30pt,headheight=20pt]{geometry}
+
+\usepackage[colorlinks,linkcolor=navier_blue,citecolor=navier_blue,urlcolor=navier_blue]{hyperref}
+\hypersetup{breaklinks=true}
+
+\graphicspath{{./project/pic/}}
+
+%\usepackage{macros}
+\usepackage{ragged2e}
+\usepackage{minitoc}
+
+\usepackage{marvosym}
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+
+
+\usepackage{minted}
+\usemintedstyle{friendly}
+\newminted{python}{
+    linenos=false,
+    bgcolor=lightgray,
+    tabsize=4,
+    fontfamily=courier,
+    fontsize=\small,
+    xleftmargin=5pt,
+    xrightmargin=5pt
+}
+
+\usepackage[capitalize,nameinlink]{cleveref}
+\usepackage{csquotes}
+
+\usepackage{enumitem}
+\usepackage{pdfpages}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\rhead{}
+\lhead{}
+
+\fancypagestyle{firststyle}
+{
+   \fancyhf{}
+   \chead{\includegraphics[width = 0.8\textwidth]{banner_tutelles}}
+}
+
+%\pagenumbering{gobble}
+\begin{document}
+
+\title{
+\Large Jérémy Bleyer\\
+\large Ecole Nationale des Ponts et Chaussées\\
+Chercheur (HDR) au Laboratoire Navier\\
+Ingénieur en Chef des Ponts, des Eaux et des Forêts\\
+Professeur chargé de cours à l'Ecole Polytechnique
+}
+
+\maketitle
+\thispagestyle{firststyle}
+
+\input{cv}
+
+
+\input{activities}
+
+
+\end{document}
