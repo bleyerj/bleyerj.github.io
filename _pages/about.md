@@ -31,12 +31,14 @@ I am also an Associate Professor at [Ecole Polytechnique](https://www.polytechni
 
 ## Research
 
-My research work aims to develop advanced mechanical models and innovative numerical simulation tools for the study of material and structural failure. To achieve this, I draw from a broad spectrum of disciplines, including applied mathematics
-(convex analysis and optimization in particular), theoretical and computational mechanics. While a significant portion of my work is at a relatively fundamental methodological level, I also pay special attention to their application in the field of engineering, particularly in civil engineering. In this context, my work aims to address two important societal challenges: sustainable construction and risk management.
+My research work aims to develop advanced mechanical models and innovative numerical simulation tools for the study of material and structural failure. To achieve this, I draw from a broad spectrum of disciplines, from theoretical and computational mechanics to applied mathematics
+(convex analysis and optimization in particular), machine learning and computer science. While a significant portion of my work is at a relatively fundamental methodological level, I also pay special attention to their application in the field of engineering, particularly in civil engineering. In this context, my work aims to address two important societal challenges: sustainable construction and risk management.
 
-Keywords: *nonlinear mechanics, convex optimization, structural failure, shape and topology optimization, brittle fracture, phase-field models*
+Keywords: *nonlinear mechanics, computational mechanics, convex optimization, structural failure, shape and topology optimization, brittle fracture, phase-field models*
 
 You can find further details in [Research](/research).
+
+I have recently been awarded an **ERC Consolidator** grant for the AUTOMATIX project on automating material modeling. You can find more details on the [AUTOMATIX project webpage](https://erc-automatix.github.io/).
 
 ## Open science projects
 

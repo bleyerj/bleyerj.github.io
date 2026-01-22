@@ -13,7 +13,18 @@ For an extensive summary of my research, see my **Habilitation thesis** manuscri
 [Variational principles in nonlinear mechanics using convex optimization and automated numerical tools](
 https://zenodo.org/records/14223156/files/HDR_manuscript_Jeremy_Bleyer.pdf?download=1) 
 
-## Automated nonlinear mechanics with FEniCS
+## Automated material modeling
+
+<p align="center">
+  <img src="https://erc-automatix.github.io/images/automatix.png" width=600px />
+</p>
+
+The ERC Consolidator project [AUTOMATIX](https://erc-automatix.github.io/) aims to improve the modeling of material behavior in solid mechanics. Accurately capturing complex phenomena (such as plasticity, damage, or environmental effects) remains a major challenge in many applications. Automatix leverages advances in machine learning to automatically build models from experimental data while directly embedding physical and mathematical knowledge within the learning architecture. This hybrid approach produces more reliable models, consistent with mechanical laws and less dependent on large datasets.
+
+A key outcome will be an open-source, modular, and high-performance library accessible to both academia and industry. Automatix will be applied in particular to the modeling of 3D-printed concrete at the Navier laboratory, to better predict complex phenomena such as material curing and crack formation.
+
+
+## Nonlinear mechanics with FEniCS
 
 <p align="center">
   <img src="../images/montage_automation.png" width=800px />
@@ -21,7 +32,7 @@ https://zenodo.org/records/14223156/files/HDR_manuscript_Jeremy_Bleyer.pdf?downl
 
 Part of my activities revolves around the overarching goal of automating nonlinear mechanics simulations using modern computational tools. I am heavily involved in developing a computational ecosystem for nonlinear mechanics within the  [FEniCS](https://fenicsproject.org) environment. Specifically, by harnessing FEniCS' automation capabilities for formulating partial differential equations (PDEs), it is now possible to easily implement numerical solutions to complex nonlinear and multiphysics problems. You can find more details in my [Numerical tours](https://bleyerj.github.io/comet-fenicsx/). 
 
-One of the main challenges in using FEniCS in a nonlinear mechanics setting is the difficulty in natively handling implicit constitutive laws, which frequently arise for complex materials. To address this issue, I am developing a set of numerical tools to integrate FEniCS with external libraries, including material behavior code generators such as MFront, machine learning libraries with Automatic Differentiation features, and conic optimization solvers. You can find further details in the [Software](../_pages/software.md) section.
+One of the main challenges in using FEniCS in a nonlinear mechanics setting is the difficulty in natively handling implicit constitutive laws, which frequently arise for complex materials. To address this issue, I am developing a set of numerical tools to integrate FEniCS with external libraries, including material behavior code generators such as MFront, machine learning libraries with Automatic Differentiation features (see the AUTOMATIX project), and conic optimization solvers. You can find further details in the [Software](../_pages/software.md) section.
 All these developments are open-source and have led to various collaborations focusing on very different applications including:
 - viscoplastic fluids 
 - submarine landslides
