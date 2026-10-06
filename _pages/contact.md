@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-Laboratoire Navier, Ecole des Ponts Paris-Tech\
+Laboratoire Navier, Ecole nationale des Ponts et Chaussées (IP Paris)\
 Office: V013
 
 6-8 avenue Blaise Pascal, Cité Descartes\
